@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Café Digital ITLA</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-light">
+
+<header role="banner">
+    <div class="py-2 bg-primary">
+        <div class="container-fluid px-4">
+            <div class="d-flex justify-content-between align-items-center flex-nowrap">
+                
+                <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                    <img src="https://itla.edu.do/wp-content/uploads/2025/02/logo-itla-blanco.png" alt="ITLA" height="45">
+                </a>
+
+                <div class="d-flex align-items-center gap-3 w-50 justify-content-end">
+                    <form class="d-flex bg-white rounded-pill p-1 shadow-sm w-100" action="#" method="get" role="search">
+                        <input type="search" class="form-control form-control-sm border-0 rounded-pill shadow-none ps-3" placeholder="¿Qué quieres buscar?" name="s">
+                        <button class="btn btn-danger btn-sm rounded-circle d-flex align-items-center justify-content-center p-2" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+
+                    <button class="btn btn-link text-white p-0 border-0 shadow-none" type="button">
+                        <i class="bi bi-grid-3x3-gap-fill fs-4"></i>
+                    </button>
+
+                    <button class="btn btn-link text-white p-0 border-0 shadow-none" type="button">
+                        <i class="bi bi-globe fs-4"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand navbar-light bg-white border-bottom py-2">
+        <div class="container-fluid px-4">
+            <ul class="navbar-nav w-100 justify-content-between align-items-center flex-row flex-nowrap small">
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-bold p-0 text-danger" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sobre ITLA
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="quienes-somos.html">Quienes somos</a></li>
+                        <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+                        <li><a class="dropdown-item" href="rectoria.html">Rectoría</a></li>
+                        <li class="dropend">
+                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Vicerrectoría</a>
+                            <ul class="dropdown-menu shadow">
+                                <li><a class="dropdown-item" href="#">Vicerrectoría Administrativa y Financiera</a></li>
+                                <li><a class="dropdown-item" href="#">Vicerrectoría Académica</a></li>
+                                <li><a class="dropdown-item" href="#">Vicerrectoría de Extensión y Vinculación Social</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Marco Legal</a></li>
+                        <li><a class="dropdown-item" href="#">Normativas Académicas</a></li>
+                        <li><a class="dropdown-item" href="#">Calidad de Gestión</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" data-bs-toggle="dropdown">Oferta Académica</a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="oferta-academica.html">Técnico Superior</a></li>
+                        <li><a class="dropdown-item" href="#">Educación Continua</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">Admisiones</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">Becas</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" data-bs-toggle="dropdown">Estudiantes</a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="#">Residencia Académica</a></li>
+                        <li><a class="dropdown-item" href="#">Transporte</a></li>
+                        <li><a class="dropdown-item" href="#">Biblioteca</a></li>
+                        <li><a class="dropdown-item" href="#">ILS — ITLA Language School</a></li>
+                        <li><a class="dropdown-item" href="#">Bienestar Estudiantil</a></li>
+                        <li><a class="dropdown-item" href="#">Registro</a></li>
+                        <li><a class="dropdown-item" href="#">Emprendetec</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" data-bs-toggle="dropdown">Docentes</a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="cafe-digital.html">Café Digital ITLA</a></li>
+                        <li><a class="dropdown-item" href="#">Aula Virtual</a></li>
+                        <li><a class="dropdown-item" href="#">Campus Virtual</a></li>
+                        <li><a class="dropdown-item" href="gestiondocente.html">Gestión Docente</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">ITLA Alumni</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="transparencia.html">Transparencia</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">Actualidad</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="contactos.html">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="position-relative overflow-hidden py-5">
+        <img src="https://itla.edu.do/wp-content/uploads/2025/02/bg.png" 
+             class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" 
+             alt="Fondo ITLA">
+
+        <div class="container position-relative py-3">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                
+                <div class="mb-2 mb-md-0">
+                    <h1 class="fw-bold h2 mb-0 text-uppercase text-dark">Café Digital</h1>
+                </div>
+
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0 bg-transparent align-items-center">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" class="text-primary text-decoration-none fw-bold">Inicio</a>
+                        </li>
+                        <li class="text-dark mx-2" aria-hidden="true">/</li>
+                        <li class="breadcrumb-item active text-dark fw-semibold" aria-current="page">
+                          Café Digital
+                        </li>
+                    </ol>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-body p-4 p-md-5">
+                <div class="row g-5">
+                    
+                    <div class="col-12 col-lg-8 text-start">
+                        <h2 class="fw-bold text-primary mb-4 border-bottom pb-2">Café Digital ITLA</h2>
+                        
+                        <section class="mb-4">
+                            <h5 class="fw-bold text-dark">Un Café con el Rector: Iniciativa de Mejora Institucional en el ITLA</h5>
+                            <p class="text-secondary small fw-bold text-uppercase">Fecha de ejecución: Octubre 2024 – Junio 2025</p>
+                            <p>Durante los meses de octubre de 2024 a junio de 2025, el rector del ITLA lideró la iniciativa “Un Café con el Rector”. El objetivo fue conocer las percepciones sobre:</p>
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item ps-0 border-0 py-1 bg-transparent"><i class="bi bi-check-circle-fill text-primary me-2"></i>Calidad académica</li>
+                                <li class="list-group-item ps-0 border-0 py-1 bg-transparent"><i class="bi bi-check-circle-fill text-primary me-2"></i>Servicios disponibles</li>
+                                <li class="list-group-item ps-0 border-0 py-1 bg-transparent"><i class="bi bi-check-circle-fill text-primary me-2"></i>Infraestructura y recursos tecnológicos</li>
+                            </ul>
+                        </section>
+
+                        <section class="mb-4">
+                            <h5 class="fw-bold text-dark">Resultados de la iniciativa</h5>
+                            <p>Se realizaron 15 encuentros con estudiantes. Gracias a los aportes recibidos, se han implementado acciones para mejorar la excelencia académica.</p>
+                        </section>
+
+                        <section class="mb-5">
+                            <h5 class="fw-bold text-dark">Instrucciones para Acceder</h5>
+                            <div class="bg-light p-3 rounded-3 border-start border-4 border-primary shadow-sm">
+                                <ol class="mb-0 small">
+                                    <li><strong>Ingresa a la plataforma:</strong> Disponible próximamente.</li>
+                                    <li><strong>Crea tu cuenta:</strong> Regístrate con tu correo institucional.</li>
+                                    <li><strong>Envía tu propuesta:</strong> Llena el formulario con los detalles.</li>
+                                </ol>
+                            </div>
+                        </section>
+
+                        <section class="bg-primary-subtle p-4 rounded-4 border border-primary border-4 shadow-sm">
+                            <div class="text-center mb-4">
+                                <img src="https://itla.edu.do/wp-content/uploads/2025/09/cafe-digital-1.png" alt="Logo Café Digital" class="img-fluid" style="max-height: 90px;">
+                            </div>
+
+                            <form action="procesar.php" method="post" enctype="multipart/form-data">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold">Correo institucional</label>
+                                        <input type="email" class="form-control border-2 border-primary-subtle" placeholder="ejemplo@itla.edu.do" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold">Recinto</label>
+                                        <select class="form-select border-2 border-primary-subtle" required>
+                                            <option value="">Seleccione un recinto</option>
+                                            <option>Santo Domingo Este</option>
+                                            <option>Santiago</option>
+                                            <option>Otro</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold">Nombre/título de la idea</label>
+                                        <input type="text" class="form-control border-2 border-primary-subtle" maxlength="100" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold">Problemática identificada</label>
+                                        <textarea class="form-control border-2 border-primary-subtle" rows="2" maxlength="300" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold">Propuesta presentada</label>
+                                        <textarea class="form-control border-2 border-primary-subtle" rows="4" placeholder="Explique su propuesta aquí..." required></textarea>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold">Tiempo estimado</label>
+                                        <input type="text" class="form-control border-2 border-primary-subtle" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-bold d-block">¿Requiere recursos económicos?</label>
+                                        <div class="form-check form-check-inline mt-1">
+                                            <input class="form-check-input border-primary" type="radio" name="econ" id="si1" value="si">
+                                            <label class="form-check-label" for="si1">Sí</label>
+                                        </div>
+                                        <div class="form-check form-check-inline mt-1">
+                                            <input class="form-check-input border-primary" type="radio" name="econ" id="no1" value="no">
+                                            <label class="form-check-label" for="no1">No</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label small fw-bold">Adjuntar archivo (Opcional)</label>
+                                        <input type="file" class="form-control border-2 border-primary-subtle">
+                                    </div>
+                                    <div class="col-12 text-center mt-4">
+                                        <button type="submit" class="btn btn-primary px-5 py-2 fw-bold rounded-pill text-uppercase shadow border-0">
+                                            Enviar Propuesta
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="sticky-top">
+                            <div class="bg-light p-4 rounded-4 shadow-sm border border-light-subtle">
+                                <h5 class="fw-bold mb-3 border-bottom pb-2">Páginas relacionadas</h5>
+                                
+                                <div class="mb-4">
+                                    <h6 class="fw-bold text-primary mb-3">Solicita más información</h6>
+                                    <form>
+                                        <div class="mb-3">
+                                            <label class="form-label small fw-bold">Nombre *</label>
+                                            <input type="text" class="form-control border-0 bg-white shadow-sm" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label small fw-bold">Correo electrónico *</label>
+                                            <input type="email" class="form-control border-0 bg-white shadow-sm" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label small fw-bold">Comentarios</label>
+                                            <textarea class="form-control border-0 bg-white shadow-sm" rows="3"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-danger w-100 fw-bold py-2 shadow-sm rounded-pill mt-2">
+                                            Enviar Solicitud
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-dark text-white pt-5 pb-4 border-top border-primary border-4">
+    <div class="container">
+        <div class="row gy-4">
+            
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Conócenos</h5>
+                <p class="small text-secondary">
+                    El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un enfoque práctico y actualizado.
+                </p>
+                <a href="contactos.html" class="text-primary small text-decoration-none fw-bold">Ver más...</a>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Contáctanos</h5>
+                <ul class="list-unstyled small text-secondary">
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                        <a href="#" class="text-secondary text-decoration-none">Tel: (809)-738-4852</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                        <a href="#" class="text-secondary text-decoration-none">Tel: (809)-793-2557</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-envelope-fill text-primary me-2"></i>
+                        <a href="#" class="text-secondary text-decoration-none">info@itla.edu.do</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Búscanos</h5>
+                <p class="small text-secondary mb-2">
+                    <i class="bi bi-geo-alt-fill text-primary me-1"></i> Autopista Las Américas, Km. 27, PCSD.
+                </p>
+                <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden border border-secondary">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.444747761821!2d-69.6644485239121!3d18.463513370914656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf6279f22578f3%3A0x647610091490214c!2sITLA!5e0!3m2!1ses!2sdo!4v1710000000000!5m2!1ses!2sdo" loading="lazy" class="border-0 w-100 h-100"></iframe>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Infórmate</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Términos de Uso</a></li>
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Política de Privacidad</a></li>
+                    <li class="mb-2"><a href="contactos.html" class="text-secondary text-decoration-none">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4 pt-4 border-top border-secondary text-center">
+            <div class="col-12">
+                <h6 class="text-uppercase fw-bold text-secondary mb-3 small">Certificaciones NORTIC Obtenidas</h6>
+                <div class="d-flex justify-content-center flex-wrap gap-3">
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/180" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/179" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/182" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/181" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/645" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 pt-4 border-top border-secondary align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <img src="https://itla.edu.do/wp-content/uploads/2025/02/logo-itla-blanco.png" alt="Logo ITLA" height="50" class="mb-3"/>
+                <p class="small text-secondary mb-0">© 2026 Instituto Tecnológico de Las Américas (ITLA). Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-4 mt-md-0">
+                <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-3">
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div>
+                <img src="https://itla.edu.do/wp-content/uploads/2026/01/LOGO-ISO-INDOCAL.jpg" alt="Certificación ISO" height="35" class="bg-white p-1 rounded"/>
+            </div>
+        </div>
+    </div> 
+</main>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

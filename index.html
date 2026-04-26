@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es-DO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Tecnológico de Las Américas</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-light">
+
+<header role="banner">
+    <div class="py-2 bg-primary">
+        <div class="container-fluid px-4">
+            <div class="d-flex justify-content-between align-items-center flex-nowrap">
+                
+                <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                    <img src="https://itla.edu.do/wp-content/uploads/2025/02/logo-itla-blanco.png" alt="ITLA" height="45">
+                </a>
+                <div class="d-flex align-items-center gap-3 w-50 justify-content-end">
+                    <form class="d-flex bg-white rounded-pill p-1 shadow-sm w-100" action="#" method="get" role="search">
+                        <input type="search" class="form-control form-control-sm border-0 rounded-pill shadow-none ps-3" placeholder="¿Qué quieres buscar?" name="s">
+                        <button class="btn btn-danger btn-sm rounded-circle d-flex align-items-center justify-content-center p-2" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
+
+                    <button class="btn btn-link text-white p-0 border-0 shadow-none" type="button">
+                        <i class="bi bi-grid-3x3-gap-fill fs-4"></i>
+                    </button>
+                    <button class="btn btn-link text-white p-0 border-0 shadow-none" type="button">
+                        <i class="bi bi-globe fs-4"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div> 
+     <nav class="navbar navbar-expand navbar-light bg-white border-bottom py-2">
+        <div class="container-fluid px-4">
+            <ul class="navbar-nav w-100 justify-content-between align-items-center flex-row flex-nowrap small">
+                
+                <li class="nav-item">
+                    <a class="nav-link fw-bold p-0 text-danger" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sobre ITLA
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="quienes-somos.html">Quienes somos</a></li>
+                        <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+                        <li><a class="dropdown-item" href="rectoria.html">Rectoría</a></li>
+                        <li class="dropend">
+                            <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Vicerrectoría</a>
+                            <ul class="dropdown-menu shadow">
+                                <li><a class="dropdown-item" href="#">Vicerrectoría Administrativa y Financiera</a></li>
+                                <li><a class="dropdown-item" href="#">Vicerrectoría Académica</a></li>
+                                <li><a class="dropdown-item" href="#">Vicerrectoría de Extensión y Vinculación Social</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Marco Legal</a></li>
+                        <li><a class="dropdown-item" href="#">Normativas Académicas</a></li>
+                        <li><a class="dropdown-item" href="#">Calidad de Gestión</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" data-bs-toggle="dropdown">Oferta Académica</a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="oferta-academica.html">Técnico Superior</a></li>
+                        <li><a class="dropdown-item" href="#">Educación Continua</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">Admisiones</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">Becas</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" data-bs-toggle="dropdown">Estudiantes</a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="#">Residencia Académica</a></li>
+                        <li><a class="dropdown-item" href="#">Transporte</a></li>
+                        <li><a class="dropdown-item" href="#">Biblioteca</a></li>
+                        <li><a class="dropdown-item" href="#">ILS — ITLA Language School</a></li>
+                        <li><a class="dropdown-item" href="#">Bienestar Estudiantil</a></li>
+                        <li><a class="dropdown-item" href="#">Registro</a></li>
+                        <li><a class="dropdown-item" href="#">Emprendetec</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" data-bs-toggle="dropdown">Docentes</a>
+                    <ul class="dropdown-menu border-0 shadow mt-2">
+                        <li><a class="dropdown-item" href="cafe-digital.html">Café Digital ITLA</a></li>
+                        <li><a class="dropdown-item" href="#">Aula Virtual</a></li>
+                        <li><a class="dropdown-item" href="#">Campus Virtual</a></li>
+                        <li><a class="dropdown-item" href="gestiondocente.html">Gestión Docente</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">ITLA Alumni</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="transparencia.html">Transparencia</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="#">Actualidad</a></li>
+                <li class="nav-item"><a class="nav-link text-dark p-0" href="contactos.html">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div id="carouselAuto" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://itla.edu.do/wp-content/uploads/2026/04/Banner-web-respuestas-2.png" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://itla.edu.do/wp-content/uploads/2025/09/Test-Center-0x0.png" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://itla.edu.do/wp-content/uploads/2025/09/Tecnologo-ciberseguridad-0x0.png" class="d-block w-100" alt="Banner 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://itla.edu.do/wp-content/uploads/2025/09/IMG_7665-0x0.jpeg" class="d-block w-100" alt="ITLAcademy">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAuto" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAuto" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+     <div class="container my-5">
+        <div class="row g-3 text-center">
+            <div class="col-md-3">
+                <a href="#" class="btn btn-outline-primary w-100 py-4 shadow-sm border-2 fw-bold d-block transition">
+                    <i class="bi bi-laptop fs-1 d-block mb-2"></i> Campus Virtual
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="btn btn-outline-primary w-100 py-4 shadow-sm border-2 fw-bold d-block">
+                    <i class="bi bi-translate fs-1 d-block mb-2"></i> Idiomas
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="btn btn-outline-primary w-100 py-4 shadow-sm border-2 fw-bold d-block">
+                    <i class="bi bi-patch-check fs-1 d-block mb-2"></i> Certificaciones
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="btn btn-outline-primary w-100 py-4 shadow-sm border-2 fw-bold d-block">
+                    <i class="bi bi-person-badge fs-1 d-block mb-2"></i> Empleo
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 py-4">
+        <div class="d-flex align-items-center mb-5 pb-2">
+            <h2 class="h4 fw-bold text-dark mb-0 text-uppercase">
+                Nuevas <span class="border-bottom border-danger border-2 pb-2">Carreras</span>
+            </h2>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-md-4">
+                <a href="https://itla.edu.do/tecnologo-en-simulaciones-interactivas-y-videojuegos/" 
+                   class="btn p-0 border-0 shadow rounded-4 overflow-hidden position-relative d-block bg-dark ratio ratio-4x3">
+                    <img src="https://itla.edu.do/wp-content/uploads/2025/03/simulaciones-de-video-juegos.jpg" 
+                         class="w-100 h-100 object-fit-cover opacity-50" alt="Simulaciones">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
+                        <h5 class="fw-bold text-white mb-3">Simulaciones interactivas<br>y videojuegos</h5>
+                        <div class="btn btn-light btn-sm fw-bold text-uppercase px-3 py-2 rounded-0 border-white">
+                            Ver Detalle
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://itla.edu.do/tecnologo-en-telecomunicaciones/" 
+                   class="btn p-0 border-0 shadow rounded-4 overflow-hidden position-relative d-block bg-dark ratio ratio-4x3">
+                    <img src="https://itla.edu.do/wp-content/uploads/2025/03/torres-telecomunicaciones.jpg" 
+                         class="w-100 h-100 object-fit-cover opacity-50" alt="Telecomunicaciones">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
+                        <h5 class="fw-bold text-white mb-3">Telecomunicaciones</h5>
+                        <div class="btn btn-light btn-sm fw-bold text-uppercase px-3 py-2 rounded-0 border-white">
+                            Ver Detalle
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="https://itla.edu.do/tecnologo-en-inteligencia-artificial/" 
+                   class="btn p-0 border-0 shadow rounded-4 overflow-hidden position-relative d-block bg-dark ratio ratio-4x3">
+                    <img src="https://itla.edu.do/wp-content/uploads/2025/03/Inteligencia-Artificial.avif" 
+                         class="w-100 h-100 object-fit-cover opacity-50" alt="IA">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center px-3">
+                        <h5 class="fw-bold text-white mb-3">Inteligencia Artificial</h5>
+                        <div class="btn btn-light btn-sm fw-bold text-uppercase px-3 py-2 rounded-0 border-white">
+                            Ver Detalle
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="oferta-academica.html" class="btn btn-outline-primary btn-lg px-5 py-2 fw-bold rounded-pill text-uppercase border-2 shadow-sm">
+                + Carreras
+            </a>
+        </div>
+    </div>
+    <div class="position-relative text-center text-white overflow-hidden py-5">
+        <img src="http://itla.edu.do/wp-content/uploads/2024/01/FACHADA-ITLA.png" 
+             class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" 
+             alt="Fondo ITLA">
+             <div class="container position-relative py-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12">
+                    <h2 class="fw-bold mb-3 fs-4">
+                        ¡Tu futuro profesional empieza aquí!
+                    </h2>
+                    <button class="btn btn-danger btn-sm px-4 py-2 fw-bold rounded-pill shadow border-0">
+                        INSCRÍBETE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="container my-5 py-4">
+        <h2 class="text-center fw-bold border-bottom pb-3 mb-5 text-primary">Últimas Novedades</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                    <div class="ratio ratio-16x9">
+                        <img src="https://itla.edu.do/wp-content/uploads/2026/04/participacion-en-competencia-de-la-NASA.jpg" class="card-img-top object-fit-cover" alt="Noticia 1">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Participación en competencia de la NASA</h5>
+                        <p class="card-text text-secondary small">Estudiantes logran una destacada participación internacional en ingeniería espacial.</p>
+                        <a href="#" class="btn btn-primary mt-auto stretched-link fw-bold">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                    <div class="ratio ratio-16x9">
+                        <img src="https://itla.edu.do/wp-content/uploads/2026/04/alianza-de-Microsoft-e-ITLA.png" class="card-img-top object-fit-cover" alt="Noticia 2">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Alianza Estratégica con Microsoft</h5>
+                        <p class="card-text text-secondary small">Fortalecimiento de la formación en Inteligencia Artificial y computación en la nube.</p>
+                        <a href="#" class="btn btn-primary mt-auto stretched-link fw-bold">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0 position-relative overflow-hidden">
+                    <div class="ratio ratio-16x9">
+                        <img src="https://itla.edu.do/wp-content/uploads/2026/04/Franck-Genao-en-el-Devtech-2026.jpg" class="card-img-top object-fit-cover" alt="Noticia 3">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">DevTech Fest 2026</h5>
+                        <p class="card-text text-secondary small">Éxito total en el evento de innovación tecnológica más importante del año.</p>
+                        <a href="#" class="btn btn-primary mt-auto stretched-link fw-bold">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="actualidad.html" class="btn btn-outline-primary btn-lg px-5 py-2 fw-bold rounded-pill text-uppercase border-2 shadow-sm">
+                Más Novedades
+            </a>
+        </div>
+    </div>
+    <section class="position-relative overflow-hidden bg-dark d-flex justify-content-center align-items-center py-5">
+        <img src="https://itla.edu.do/wp-content/uploads/2025/03/bg-carta-compromiso.jpg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-50" alt="Fondo Carta Compromiso">
+        <div class="container position-relative py-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
+                    <div class="py-3">
+                        <h2 class="text-white fw-bold display-6">Carta Compromiso al Ciudadano</h2>
+                        <a href="https://itla.edu.do/wp-content/uploads/2025/03/CARTA-COMPROMISO-AL-CIUDADANO-ITLA-2023.pdf" class="btn btn-outline-light btn-lg mt-4 px-5 fw-bold border-2 text-uppercase" target="_blank" rel="noopener noreferrer">
+                            Ver Carta
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <div class="p-2">
+                        <img src="https://itla.edu.do/wp-content/uploads/2025/03/carta-miniatura.webp" alt="Miniatura Carta Compromiso" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-dark text-white pt-5 pb-4 border-top border-primary border-4">
+    <div class="container">
+        <div class="row gy-4">
+            
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Conócenos</h5>
+                <p class="small text-secondary">
+                    El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un enfoque práctico y actualizado.
+                </p>
+                <a href="contactos.html" class="text-primary small text-decoration-none fw-bold">Ver más...</a>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Contáctanos</h5>
+                <ul class="list-unstyled small text-secondary">
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                        <a href="#" class="text-secondary text-decoration-none">Tel: (809)-738-4852</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill text-primary me-2"></i>
+                        <a href="#" class="text-secondary text-decoration-none">Tel: (809)-793-2557</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-envelope-fill text-primary me-2"></i>
+                        <a href="#" class="text-secondary text-decoration-none">info@itla.edu.do</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Búscanos</h5>
+                <p class="small text-secondary mb-2">
+                    <i class="bi bi-geo-alt-fill text-primary me-1"></i> Autopista Las Américas, Km. 27, PCSD.
+                </p>
+                <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden border border-secondary">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.444747761821!2d-69.6644485239121!3d18.463513370914656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf6279f22578f3%3A0x647610091490214c!2sITLA!5e0!3m2!1ses!2sdo!4v1710000000000!5m2!1ses!2sdo" loading="lazy" class="border-0 w-100 h-100"></iframe>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h5 class="fw-bold mb-4 border-bottom border-secondary pb-2 text-uppercase small">Infórmate</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Términos de Uso</a></li>
+                    <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Política de Privacidad</a></li>
+                    <li class="mb-2"><a href="contactos.html" class="text-secondary text-decoration-none">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4 pt-4 border-top border-secondary text-center">
+            <div class="col-12">
+                <h6 class="text-uppercase fw-bold text-secondary mb-3 small">Certificaciones NORTIC Obtenidas</h6>
+                <div class="d-flex justify-content-center flex-wrap gap-3">
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/180" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/179" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/182" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/181" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                    <iframe src="https://be.nortic.ogtic.gob.do/StampProcesses/Stamp/645" height="100" width="100" class="rounded border-0 overflow-hidden"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 pt-4 border-top border-secondary align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <img src="https://itla.edu.do/wp-content/uploads/2025/02/logo-itla-blanco.png" alt="Logo ITLA" height="50" class="mb-3"/>
+                <p class="small text-secondary mb-0">© 2026 Instituto Tecnológico de Las Américas (ITLA). Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-4 mt-md-0">
+                <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-3">
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div>
+                <img src="https://itla.edu.do/wp-content/uploads/2026/01/LOGO-ISO-INDOCAL.jpg" alt="Certificación ISO" height="35" class="bg-white p-1 rounded"/>
+            </div>
+        </div>
+    </div> 
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
